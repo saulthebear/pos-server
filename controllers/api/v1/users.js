@@ -37,7 +37,7 @@ router.post("/register", async (req, res) => {
     // disallow users from registering twice
     if (findUser) {
       // stop the route and send a response saying the user exists
-      return res.status(400).json({ msg: "username exists already 🤦‍♂️" })
+      return res.status(400).json({ error: "username exists already 🤦‍♂️" })
     }
 
     // hash the user's password
