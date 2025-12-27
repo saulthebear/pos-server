@@ -1,0 +1,12 @@
+.git
+node_modules
+.env
+.env.local
+npm-debug.log*
+.DS_Store
+.vscode
+.github
+*.test.js
+dbTest.js
+hashTest.js
+jwtTest.js
